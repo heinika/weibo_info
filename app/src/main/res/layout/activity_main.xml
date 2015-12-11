@@ -71,13 +71,6 @@
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
-    <!--<android.support.v4.widget.NestedScrollView-->
-    <!--android:id="@+id/nestedscrollview"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--底部带动顶部的滑动-->
-    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -95,5 +88,5 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>
-    <!--</android.support.v4.widget.NestedScrollView>-->
+
 </android.support.design.widget.CoordinatorLayout>

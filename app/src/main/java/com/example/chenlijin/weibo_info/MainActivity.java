@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
-import android.support.v4.widget.NestedScrollView;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -15,7 +14,6 @@ import com.example.chenlijin.weibo_info.fragment.PhotoFragment;
 import com.example.chenlijin.weibo_info.fragment.WeiBoFragment;
 
 public class MainActivity extends AppCompatActivity {
-    private NestedScrollView mNestedScrollView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,9 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
         CollapsingToolbarLayout collapsingToolbar =
                 (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-//        mNestedScrollView = (NestedScrollView) findViewById(R.id.nestedscrollview);
-//        //解决viewpager高度无法显示问题
-//        mNestedScrollView.setFillViewport(true);
         //设置CollapsingToolbarLayout的标题文字
         collapsingToolbar.setTitle(" ");
         //设置ViewPager
