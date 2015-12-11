@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.bartoszlipinski.recyclerviewheader.RecyclerViewHeader
+        android:id="@+id/header_weibo"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dp"
+            android:text="全部微博"/>
+
+    </com.bartoszlipinski.recyclerviewheader.RecyclerViewHeader>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_weibo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>
