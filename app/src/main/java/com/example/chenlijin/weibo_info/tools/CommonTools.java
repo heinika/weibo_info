@@ -3,6 +3,7 @@ package com.example.chenlijin.weibo_info.tools;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
@@ -122,8 +123,10 @@ public class CommonTools {
         }
         try {
             fOut.close();
+            Toast.makeText(BaseApplication.getContext(),"保存完成",Toast.LENGTH_SHORT).show();
         } catch (IOException e) {
             e.printStackTrace();
+            Toast.makeText(BaseApplication.getContext(),"保存失败",Toast.LENGTH_SHORT).show();
         }
     }
 }

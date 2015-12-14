@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion '23.0.2'
 
     defaultConfig {
         applicationId "com.example.chenlijin.weibo_info"
@@ -29,4 +29,5 @@ dependencies {
     compile 'com.bartoszlipinski.recyclerviewheader:library:1.2.0'
     compile 'com.uwetrottmann.photoview:library:1.2.4'
     compile 'com.github.bumptech.glide:glide:3.6.1'
+    compile 'com.android.support:support-v4:23.1.1'
 }

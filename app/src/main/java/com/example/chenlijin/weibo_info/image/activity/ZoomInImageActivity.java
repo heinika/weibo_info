@@ -18,13 +18,14 @@ import com.example.chenlijin.weibo_info.image.fragment.ImageFragment;
 import com.example.chenlijin.weibo_info.image.moudel.Image;
 import com.example.chenlijin.weibo_info.tools.CommonTools;
 import com.example.chenlijin.weibo_info.tools.Config;
+import com.example.chenlijin.weibo_info.view.MyViewPager;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 public class ZoomInImageActivity extends AppCompatActivity{
-    private ViewPager mViewPager;
+    private MyViewPager mViewPager;
     private List<Fragment>  mFragmentList;
     private TextView mTextViewImageNum;
     private TextView mTextViewSaveImage;
@@ -35,7 +36,7 @@ public class ZoomInImageActivity extends AppCompatActivity{
         setContentView(R.layout.activity_zoom_in_image);
         //设置statusbar为透明色
         setStatusBarColor();
-        mViewPager = (ViewPager) findViewById(R.id.viewPager_zoom_in);
+        mViewPager = (MyViewPager) findViewById(R.id.viewPager_zoom_in);
         mTextViewImageNum = (TextView) findViewById(R.id.textview_image_num);
         mTextViewSaveImage = (TextView) findViewById(R.id.textview_save_image);
 
