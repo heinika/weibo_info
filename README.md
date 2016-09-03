@@ -1,11 +1,18 @@
 # weibo_info
 用了一些新控件，仿的微博界面
+主要有向上滑动图片渐变消失，tablayout使用，用recyclerview解决1-9张图片的显示问题，点击图片后进入viewpager进行缩放，保存等操作。
 layout: photo
 
-## 把最近做的总结一下：
-<img src="http://heinika.github.io/img/weiboxinxijiemian/1.png" width="30%" height="30%">
-<img src="http://heinika.github.io/img/weiboxinxijiemian/2.png" width="30%" height="30%">
-<img src="http://heinika.github.io/img/weiboxinxijiemian/3.png" width="30%" height="30%">
+## 效果图：
+
+![2015-12-11-121720.png](http://upload-images.jianshu.io/upload_images/759172-cedfda34c1dd41c4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/620)
+
+
+![2015-12-11-121824.png](http://upload-images.jianshu.io/upload_images/759172-e8ab1e9e0279725e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/620)
+
+
+![2015-12-11-121900.png](http://upload-images.jianshu.io/upload_images/759172-59f365aa69a6b265.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/620)
+
 ### 应用：
 设置向上滚动消失的view
 ``` xml
@@ -246,3 +253,7 @@ scrollview下嵌套viewpager，viewpager高度不显示
 share动画，打开的activity是viewpager返回时的图片不对
 glide加载网络上的长图时，宽度设置为match失效
 glide加载图片时，如果设置图片为match match图片会先显示在上方再移动到中间
+
+# github：
+https://heinika.github.io/  
+源码：https://github.com/heinika/weibo_info
